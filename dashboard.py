@@ -31,6 +31,7 @@ df = pd.read_csv("American_Housing_Data.csv", encoding = "ISO-8859-1")
 
 
 ##sidebar section
+st.sidebar.image("data/house.jpg",caption="")
 st.sidebar.header("Choose your filter: ")
 #Filter for the state    
 state = st.sidebar.multiselect("Pick the state", df["State"].unique())
@@ -142,6 +143,5 @@ def sideBar():
     plot_maps()
 
 sideBar()
-st.sidebar.image("data/house.jpg",caption="")
 
 
