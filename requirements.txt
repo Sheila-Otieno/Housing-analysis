@@ -5,3 +5,4 @@ plotly
 numerize
 pydeck
 streamlit_option_menu
+streamlit_extras
